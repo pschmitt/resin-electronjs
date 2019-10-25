@@ -2,7 +2,7 @@
 # Build stage
 ##
 # FROM balenalib/%%BALENA_MACHINE_NAME%%-node:10-build as build
-FROM balenalib/raspberrypi3-node:10-build
+FROM balenalib/raspberrypi3-node:10-build as build
 
 # Move to app dir
 WORKDIR /usr/src/app
